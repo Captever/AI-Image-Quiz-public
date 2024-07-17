@@ -1,0 +1,15 @@
+{
+    "TableName": "ImageCategoryTags",
+    "KeySchema": [
+        { "AttributeName": "category_id", "KeyType": "HASH" },
+        { "AttributeName": "tag_id", "KeyType": "RANGE" }
+    ],
+    "AttributeDefinitions": [
+        { "AttributeName": "category_id", "AttributeType": "N" },
+        { "AttributeName": "tag_id", "AttributeType": "N" }
+    ],
+    "ProvisionedThroughput": {
+        "ReadCapacityUnits": 5,
+        "WriteCapacityUnits": 5
+    }
+}

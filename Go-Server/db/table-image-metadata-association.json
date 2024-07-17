@@ -1,0 +1,13 @@
+{
+    "TableName": "ImageMetadataAssociation",
+    "KeySchema": [
+        { "AttributeName": "image_id", "KeyType": "HASH" }
+    ],
+    "AttributeDefinitions": [
+        { "AttributeName": "image_id", "AttributeType": "N" }
+    ],
+    "ProvisionedThroughput": {
+        "ReadCapacityUnits": 5,
+        "WriteCapacityUnits": 5
+    }
+}
