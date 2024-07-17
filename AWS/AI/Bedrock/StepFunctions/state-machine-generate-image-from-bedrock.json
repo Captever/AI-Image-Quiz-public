@@ -1,0 +1,41 @@
+{
+    "Comment": "State machine to process batches of prompts without knowing the exact number of batches.",
+    "StartAt": "SplitBatches",
+    "States": {
+      "SplitBatches": {
+        "Type": "Task",
+        "Resource": "arn:aws:lambda:<region>:<account-id>:function:SplitBatches",
+        "Next": "ProcessBatches"
+      },
+      "ProcessBatches": {
+        "Type": "Map",
+        "ItemsPath": "$.batches",
+        "MaxConcurrency": 1,
+        "Iterator": {
+          "StartAt": "ProcessBatch",
+          "States": {
+            "ProcessBatch": {
+              "Type": "Task",
+              "Resource": "arn:aws:lambda:<region>:<account-id>:function:ProcessBatch",
+              "End": true,
+              "Catch": [
+                {
+                  "ErrorEquals": [
+                    "States.ALL"
+                  ],
+                  "ResultPath": "$.error",
+                  "Next": "Failure"
+                }
+              ]
+            },
+            "Failure": {
+              "Type": "Fail",
+              "Error": "ProcessFailed",
+              "Cause": "The process failed."
+            }
+          }
+        },
+        "End": true
+      }
+    }
+  }

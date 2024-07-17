@@ -1,0 +1,13 @@
+{
+    "TableName": "ImageCategoryNames",
+    "KeySchema": [
+        { "AttributeName": "category_id", "KeyType": "HASH" }
+    ],
+    "AttributeDefinitions": [
+        { "AttributeName": "category_id", "AttributeType": "N" }
+    ],
+    "ProvisionedThroughput": {
+        "ReadCapacityUnits": 5,
+        "WriteCapacityUnits": 5
+    }
+}
