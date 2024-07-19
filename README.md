@@ -1,37 +1,34 @@
 # AI-Image-Quiz-public
+## Description
+Will be edited
 
 # 기획
-## 기획 의도
+## 기획 의도(Planning intent)
 
-![기획 의도](/resources/기획 - 기획 의도.png)
+![Planning intent](resources/Planning-intent.png)
 
-## Architecture Diagram
-![Architecture Diagram](resources/Architecture-Diagram.webp)
+## ERD(Entity Relationship Diagram) & Architecture Diagram
+![ERD&FlowChart](resources/ERD&FlowChart.png)
 
 ## ERD(Entity Relationship Diagram)
-![ERD](/resources/ERD.png)
+![ERD](</resources/ERD.png>)
 
 ## Flow chart
-![Flow Chart](resources/FlowChart.png)
+![Flow Chart](<resources/FlowChart.png>)
 
-# 담당 기술 스택
-![담당 기술 스택](<resources/담당 기술 스택.png>)
+# 담당 기술 스택(Respnsible Tech Stack)
+![RespnsibleTechStack](resources/Responsible-Tech-Stack.png)
 
-# 담당 파트 진행 일정
-
-![담당 파트 진행 일정](<resources/담당 파트 진행 일정.png>)
+# 담당 파트 진행 일정(Responsible Part Progress Schedule)
+![ResponsiblePartProgressSchedule](resources/Responsible-Part-Progress-Schedule.png)
 
 # 주요 테크닉
 ## Golang 서버
-![go 테크닉 1](<resources/go 서버 주요 테크닉 1.png>)
-![go 테크닉 2](<resources/go 서버 주요 테크닉 2.png>)
-
-![go 테크닉 3](<resources/go 서버 주요 테크닉 3.png>)
+![GoServerKeyTechnique1](resources/Go-server-key-technique-1.png)
+![GoServerKeyTechnique2](resources/Go-server-key-technique-2.png)
+![GoServerKeyTechnique3](resources/Go-server-key-technique-3.png)
 
 ## Unity 클라이언트
-
-![unity 테크닉 1](<resources/unity 클라이언트 주요 테크닉 1.png>)
-
-![unity 테크닉 2](<resources/unity 클라이언트 주요 테크닉 2.png>)
-
-![unity 테크닉 3](<resources/unity 클라이언트 주요 테크닉 3.png>)
+![UnityClientKeyTechnique1](resources/Unity-client-key-technique-1.png)
+![UnityClientKeyTechnique2](resources/Unity-client-key-technique-2.png)
+![UnityClientKeyTechnique3](resources/Unity-client-key-technique-3.png)
