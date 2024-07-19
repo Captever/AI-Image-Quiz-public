@@ -31,6 +31,7 @@
     - 사진 100개가 있을 때 5명의 유저가 각각 모두 다른 사진 20개씩 진행한 이력이 있다면, 개인별 나머지 80개의 이미지는 사용할 수 없는 게임이 되어 버림
     - 한 유저가 일반적이지 않은 수준으로 많은 게임을 진행할 경우 해당 유저만을 위한 이미지가 생성돼야 할 수도 있음
     - 제일 중요한 건, 처리해야 할 로직이 많아지므로 서버 부하가 크게 늘어남
+
 **추후 서비스가 커지면 두 개의 대응점의 장점만 뽑아내 진행해야 할 것이다.**
 
 ## Description(en-us)
@@ -64,6 +65,7 @@ Two possible responses exist to address this issue:
     - If there are 100 images and 5 users have each viewed 20 different images, the remaining 80 images become unusable for each user
     - In cases where a user plays an unusually high number of games, images may need to be created specifically for that user
     - Most importantly, increasing the logic to process significantly increases server load
+
 **As the service grows, we will need to extract and implement the advantages of both response strategies.**
 
 # 기획
