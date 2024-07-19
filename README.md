@@ -10,12 +10,6 @@ Will be edited
 ## ERD(Entity Relationship Diagram) & Architecture Diagram
 ![ERD&FlowChart](resources/ERD&FlowChart.png)
 
-## ERD(Entity Relationship Diagram)
-![ERD](</resources/ERD.png>)
-
-## Flow chart
-![Flow Chart](<resources/FlowChart.png>)
-
 # 담당 기술 스택(Respnsible Tech Stack)
 ![RespnsibleTechStack](resources/Responsible-Tech-Stack.png)
 
