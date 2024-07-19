@@ -93,4 +93,4 @@ Two possible responses exist to address this issue:
 ![UnityClientKeyTechnique3](resources/Unity-client-key-technique-3.png)
 
 ## 시연 영상
-[![DemonstrationVideo](resources/Unity-client-key-technique-1.png)](https://youtu.be/ecmC-oX-2f8)
+[![DemonstrationVideo](resources/thumbnail-demonstration-video.png)](https://youtu.be/ecmC-oX-2f8)
