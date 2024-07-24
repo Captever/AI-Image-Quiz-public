@@ -72,7 +72,10 @@ Two possible responses exist to address this issue:
 ### 기획 의도(Planning intent)
 ![Planning intent](resources/Planning-intent.png)
 
-### ERD(Entity Relationship Diagram) & Architecture Diagram
+### Architecture Diagram
+![ArchitectureDiagram](resources/Architecture-Diagram.webp)
+
+### ERD(Entity Relationship Diagram) & Flow Chart
 ![ERD&FlowChart](resources/ERD&FlowChart.png)
 
 ## 담당 기술 스택(Respnsible Tech Stack)
