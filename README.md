@@ -106,7 +106,6 @@ Two possible responses exist to address this issue:
 
 ## 사용된 API 및 라이브러리
 
-- Riot Games API: [Riot Developer Portal](https://developer.riotgames.com/)의 이용 약관을 준수합니다.
 - Unity: [Unity Terms of Service](https://unity3d.com/legal/terms-of-service)
 
 © Captever 2024. All Rights Reserved.
