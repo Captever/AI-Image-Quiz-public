@@ -97,3 +97,16 @@ Two possible responses exist to address this issue:
 
 ## 시연 영상
 [![DemonstrationVideo](resources/thumbnail-demonstration-video.png)](https://youtu.be/ecmC-oX-2f8)
+
+
+# License
+## 사용 조건
+
+이 저장소는 개인 포트폴리오 목적으로 제작되었습니다. 링크를 통해 접근 가능한 사용자들은 코드를 볼 수 있지만, 무단 복제, 수정, 배포는 금지됩니다. 사용에 관한 문의는 [captever6@gmail.com]으로 연락 주시기 바랍니다.
+
+## 사용된 API 및 라이브러리
+
+- Riot Games API: [Riot Developer Portal](https://developer.riotgames.com/)의 이용 약관을 준수합니다.
+- Unity: [Unity Terms of Service](https://unity3d.com/legal/terms-of-service)
+
+© Captever 2024. All Rights Reserved.
